@@ -131,7 +131,11 @@ class ModelCreatorDialog(Adw.Dialog):
             self.show_toast(_("Please add a name"))
             return
 
-        base_model_name = self.base_el.get_selected_item().model.get_name()
+        base_item = self.base_el.get_selected_item()
+        if isinstance(base_item, Gtk.StringObject):
+            base_model_name = self.base_el.get_subtitle()
+        else:
+            base_model_name = base_item.model.get_name()
         tag_name = self.tag_el.get_text() or 'custom'
         model_name = '{}:{}'.format(main_name, tag_name).strip().replace(' ', '-').lower()
         pretty_name = prettify_model_name(model_name)
