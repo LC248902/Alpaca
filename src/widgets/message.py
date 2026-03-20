@@ -379,7 +379,7 @@ class Message(Gtk.Box):
         GLib.idle_add(self.block_container.remove_generating_block)
         GLib.idle_add(self.update_profile_picture)
         GLib.idle_add(send_notification)
-        GLib.idle_add(self.save)
+        GLib.timeout_add(100, self.save)
 
         if response_metadata:
             attachment = self.add_attachment(
