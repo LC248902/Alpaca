@@ -6412,6 +6412,10 @@ OLLAMA_MODELS = {
                         "24 GB"
                 ],
                 [
+                        "4b",
+                        "2.8 GB"
+                ],
+                [
                         "30b",
                         "24 GB"
                 ],
@@ -6420,12 +6424,13 @@ OLLAMA_MODELS = {
                         "cloud"
                 ]
         ],
-        "description": _("Nemotron 3 Nano - A new Standard for Efficient, Open, and Intelligent Agentic Models"),
+        "description": _("Nemotron-3-Nano is a new Standard for Efficient, Open, and Intelligent Agentic Models, now updated with a 4B parameter count model."),
         "url": "https://ollama.com/library/nemotron-3-nano",
         "categories": [
                 "tools",
                 "reasoning",
                 "huge",
+                "small",
                 "cloud",
                 "code"
         ],
@@ -6999,6 +7004,185 @@ OLLAMA_MODELS = {
                 "code"
         ],
         "author": "MiniMax",
+        "languages": [
+                "en"
+        ],
+    },
+    "qwen3.5": {
+        "tags": [
+                [
+                        "latest",
+                        "6.6 GB"
+                ],
+                [
+                        "0.8b",
+                        "1.0 GB"
+                ],
+                [
+                        "2b",
+                        "2.7 GB"
+                ],
+                [
+                        "4b",
+                        "3.4 GB"
+                ],
+                [
+                        "9b",
+                        "6.6 GB"
+                ],
+                [
+                        "27b",
+                        "17 GB"
+                ],
+                [
+                        "35b",
+                        "24 GB"
+                ],
+                [
+                        "122b",
+                        "81 GB"
+                ],
+                [
+                        "cloud",
+                        "cloud"
+                ],
+                [
+                        "397b-cloud",
+                        "cloud"
+                ]
+        ],
+        "description": _("Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance."),
+        "url": "https://ollama.com/library/qwen3.5",
+        "categories": [
+                "vision",
+                "tools",
+                "reasoning",
+                "medium",
+                "small",
+                "big",
+                "huge",
+                "cloud",
+                "code",
+                "multilingual",
+                "math"
+        ],
+        "author": "Alibaba",
+        "languages": [
+                "en",
+                "de",
+                "es",
+                "fr",
+                "ja",
+                "pt",
+                "ar",
+                "cs",
+                "it",
+                "ko",
+                "nl",
+                "zh"
+        ],
+    },
+    "lfm2": {
+        "tags": [
+                [
+                        "latest",
+                        "14 GB"
+                ],
+                [
+                        "24b",
+                        "14 GB"
+                ]
+        ],
+        "description": _("LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient."),
+        "url": "https://ollama.com/library/lfm2",
+        "categories": [
+                "tools",
+                "big",
+                "huge",
+                "code"
+        ],
+        "author": "Liquid",
+        "languages": [
+                "en"
+        ],
+    },
+    "nemotron-3-super": {
+        "tags": [
+                [
+                        "latest",
+                        "87 GB"
+                ],
+                [
+                        "120b",
+                        "87 GB"
+                ],
+                [
+                        "cloud",
+                        "cloud"
+                ]
+        ],
+        "description": _("NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications."),
+        "url": "https://ollama.com/library/nemotron-3-super",
+        "categories": [
+                "tools",
+                "reasoning",
+                "huge",
+                "cloud",
+                "code",
+                "multilingual"
+        ],
+        "author": "Nvidia",
+        "languages": [
+                "en",
+                "fr",
+                "de",
+                "it",
+                "ja",
+                "es",
+                "zh"
+        ],
+    },
+    "nemotron-cascade-2": {
+        "tags": [
+                [
+                        "latest",
+                        "24 GB"
+                ],
+                [
+                        "30b",
+                        "24 GB"
+                ]
+        ],
+        "description": _("An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities."),
+        "url": "https://ollama.com/library/nemotron-cascade-2",
+        "categories": [
+                "tools",
+                "reasoning",
+                "huge",
+                "code",
+                "math"
+        ],
+        "author": "Nvidia",
+        "languages": [
+                "en"
+        ],
+    },
+    "minimax-m2.7": {
+        "tags": [
+                [
+                        "cloud",
+                        "cloud"
+                ]
+        ],
+        "description": _("MiniMax's M2-series model for coding, agentic workflows, and professional productivity."),
+        "url": "https://ollama.com/library/minimax-m2.7",
+        "categories": [
+                "tools",
+                "reasoning",
+                "cloud",
+                "code"
+        ],
+        "author": "Mistral AI",
         "languages": [
                 "en"
         ],
