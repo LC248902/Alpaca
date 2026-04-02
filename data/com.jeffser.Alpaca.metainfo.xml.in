@@ -89,6 +89,16 @@
   <url type="contribute">https://github.com/Jeffser/Alpaca/blob/main/CONTRIBUTING.md</url>
   <url type="vcs-browser">https://github.com/Jeffser/Alpaca</url>
   <releases>
+    <release version="9.2.3" date="2026-04-01">
+      <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.2.3</url>
+      <description translate="no">
+        <p>New</p>
+        <ul>
+          <li>Ported to Gnome 50 runtime</li>
+          <li>Updated list of models</li>
+        </ul>
+      </description>
+    </release>
     <release version="9.2.2" date="2026-03-19">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.2.2</url>
       <description translate="no">
