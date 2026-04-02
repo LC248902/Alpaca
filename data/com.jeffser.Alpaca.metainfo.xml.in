@@ -6,7 +6,7 @@
   <launchable type="desktop-id">com.jeffser.Alpaca.desktop</launchable>
   <name>Alpaca</name>
   <summary>Chat with AI models</summary>
-	<description>
+	<description translate="no">
     <p>A private AI client</p>
     <p>Features</p>
 	  <ul>
@@ -91,7 +91,7 @@
   <releases>
     <release version="9.2.2" date="2026-03-19">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.2.2</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed GGUF importing</li>
@@ -101,7 +101,7 @@
     </release>
     <release version="9.2.1" date="2026-03-03">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.2.1</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Added horizontal scrolling to code blocks</li>
@@ -117,7 +117,7 @@
     </release>
     <release version="9.2.0" date="2026-02-18">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.2.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Added the argument --add-model</li>
@@ -144,7 +144,7 @@
     </release>
     <release version="9.1.1" date="2026-02-16">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.1.1</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Improved categorization and filtering of Ollama models</li>
@@ -162,7 +162,7 @@
     </release>
     <release version="9.1.0" date="2026-02-15">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.1.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Ollama instances now use the Ollama library directly</li>
@@ -180,7 +180,7 @@
     </release>
     <release version="9.0.5" date="2026-02-03">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.0.5</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Made resizing main window smoother for higher refresh screens</li>
@@ -190,7 +190,7 @@
     </release>
     <release version="9.0.4" date="2026-02-03">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.0.4</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Moved most UI changes to main GTK thread for improved stability</li>
@@ -199,7 +199,7 @@
     </release>
     <release version="9.0.3" date="2026-02-03">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.0.3</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Made deprecated extensions warning have priority over other dialogs</li>
@@ -209,7 +209,7 @@
     </release>
     <release version="9.0.2" date="2026-02-02">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.0.2</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Refactored some UI changes to be thread safe</li>
@@ -218,7 +218,7 @@
     </release>
     <release version="9.0.1" date="2026-01-29">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.0.1</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed messages not being generate in new chats</li>
@@ -227,7 +227,7 @@
     </release>
     <release version="9.0.0" date="2026-01-28">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.0.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Added Character Cards</li>
@@ -255,7 +255,7 @@
     </release>
     <release version="8.5.1" date="2025-12-11">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.5.1</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Set OLLAMA_VULKAN override to 0 by default</li>
@@ -265,7 +265,7 @@
     </release>
     <release version="8.5.0" date="2025-12-05">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.5.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>New documentation website</li>
@@ -282,7 +282,7 @@
     </release>
     <release version="8.4.4" date="2025-11-28">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.4.4</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Updated list of available models for Ollama</li>
@@ -296,7 +296,7 @@
     </release>
     <release version="8.4.3" date="2025-11-28">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.4.3</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed error with how default model and title model are saved in instances</li>
@@ -305,7 +305,7 @@
     </release>
     <release version="8.4.2" date="2025-11-26">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.4.2</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed error with models sometimes preventing instance creator from launching</li>
@@ -314,7 +314,7 @@
     </release>
     <release version="8.4.1" date="2025-11-26">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.4.1</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed error with instance creator / editor</li>
@@ -323,7 +323,7 @@
     </release>
     <release version="8.4.0" date="2025-11-25">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.4.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>New activity: latex editor</li>
@@ -339,7 +339,7 @@
     </release>
     <release version="8.3.1" date="2025-11-01">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.3.1</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Slight redesign for Live Chat activity</li>
@@ -352,7 +352,7 @@
     </release>
     <release version="8.3.0" date="2025-10-31">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.3.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Redesigned bottom bar of activities</li>
@@ -372,7 +372,7 @@
     </release>
     <release version="8.2.2" date="2025-10-25">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.2.2</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed crashing problems if dbus fails on certain systems</li>
@@ -381,7 +381,7 @@
     </release>
     <release version="8.2.1" date="2025-10-22">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.2.1</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Updated list of models</li>
@@ -394,7 +394,7 @@
     </release>
     <release version="8.2.0" date="2025-10-22">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.2.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>New feature: Chat templates</li>
@@ -418,7 +418,7 @@
     </release>
     <release version="8.1.1" date="2025-09-14">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.1.1</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Removed Pandas and xlsx support to prevent error</li>
@@ -427,7 +427,7 @@
     </release>
     <release version="8.1.0" date="2025-09-13">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.1.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Updated runtime to Gnome 49</li>
@@ -446,7 +446,7 @@
     </release>
     <release version="8.0.0" date="2025-09-05">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/8.0.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>New feature: Activities</li>
@@ -463,7 +463,7 @@
     </release>
     <release version="7.7.5" date="2025-08-22">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/7.7.5</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>New tool: Image background remover with local processing</li>
@@ -477,7 +477,7 @@
     </release>
     <release version="7.7.1" date="2025-08-21">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/7.7.0</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed TTS being disabled internally</li>
@@ -486,7 +486,7 @@
     </release>
     <release version="7.7.0" date="2025-08-21">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/7.7.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Added preference to change max image attachment size</li>
@@ -504,7 +504,7 @@
     </release>
     <release version="7.6.0" date="2025-08-10">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/7.6.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Update model list</li>
@@ -524,7 +524,7 @@
     </release>
     <release version="7.5.5" date="2025-07-26">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/7.5.5</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed message generation problems relating to threading</li>
@@ -533,7 +533,7 @@
     </release>
     <release version="7.5.4" date="2025-07-25">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/7.5.4</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed message generation problems</li>
@@ -543,7 +543,7 @@
     </release>
     <release version="7.5.3" date="2025-07-24">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/7.5.3</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Added option to regenerate responses when messages are edited</li>
@@ -556,7 +556,7 @@
     </release>
     <release version="7.5.2" date="2025-07-22">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/7.5.2</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed inconsistent message generation rendering</li>
@@ -565,7 +565,7 @@
     </release>
     <release version="7.5.1" date="2025-07-20">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/7.5.1</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Save message edit with ctrl+enter</li>
@@ -579,7 +579,7 @@
     </release>
     <release version="7.5.0" date="2025-07-18">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/7.5.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Added option to use tools by default</li>
@@ -595,7 +595,7 @@
     </release>
     <release version="7.0.1" date="2025-06-29">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/7.0.1</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed Alpaca crashing when chats database has incorrect metadata (type)</li>
@@ -607,7 +607,7 @@
     </release>
     <release version="7.0.0" date="2025-06-27">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/7.0.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
             <li>Live Chat (Talk to models as if you were on a call)</li>
@@ -638,7 +638,7 @@
     </release>
     <release version="6.1.7" date="2025-06-07">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/6.1.7</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed new chat not being created when the chat list is empty</li>
@@ -647,7 +647,7 @@
     </release>
     <release version="6.1.6" date="2025-06-06">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/6.1.6</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Chat exporting now works as expected</li>
@@ -659,7 +659,7 @@
     </release>
     <release version="6.1.5" date="2025-06-04">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/6.1.5</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Multiple QuickAsk window rendering</li>
@@ -673,7 +673,7 @@
     </release>
     <release version="6.1.0" date="2025-06-03">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/6.1.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Chat Search</li>
@@ -697,7 +697,7 @@
     </release>
     <release version="6.0.5" date="2025-05-02">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/6.0.5</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed whisper directory not existing causing error</li>
@@ -706,7 +706,7 @@
     </release>
     <release version="6.0.4" date="2025-05-01">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/6.0.4</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Updated model list</li>
@@ -721,7 +721,7 @@
     </release>
     <release version="6.0.3" date="2025-04-13">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/6.0.3</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed auto creation of Ollama (Managed) instance</li>
@@ -732,7 +732,7 @@
     </release>
     <release version="6.0.2" date="2025-04-12">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/6.0.2</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed Ollama (Manged) instance not being able to be created</li>
@@ -741,7 +741,7 @@
     </release>
     <release version="6.0.1" date="2025-04-12">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/6.0.1</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Instance manager now follows default model</li>
@@ -753,7 +753,7 @@
     </release>
     <release version="6.0.0" date="2025-04-08">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/6.0.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Smart tools for models</li>
@@ -800,7 +800,7 @@
     </release>
     <release version="5.3.0" date="2025-03-20">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/5.3.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Updated runtime to Gnome 48</li>
@@ -817,7 +817,7 @@
     </release>
     <release version="5.2.0" date="2025-03-12">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/5.2.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Option to delete all chats</li>
@@ -835,7 +835,7 @@
     </release>
     <release version="5.1.0" date="2025-03-06">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/5.1.0</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Don't clear the building output of C++ scripts</li>
@@ -847,7 +847,7 @@
     </release>
     <release version="5.0.5" date="2025-02-25">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/5.0.5</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Dynamic chat loading</li>
@@ -857,7 +857,7 @@
     </release>
     <release version="5.0.1" date="2025-02-22">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/5.0.1</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Tweaked appearance of models in model manager</li>
@@ -868,7 +868,7 @@
     </release>
     <release version="5.0.0" date="2025-02-17">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/5.0.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>New instance manager</li>
@@ -885,7 +885,7 @@
     </release>
     <release version="4.0.1" date="2025-02-03">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/4.0.1</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Exporting chats with 'thoughts' attachment is fixed</li>
@@ -895,7 +895,7 @@
     </release>
     <release version="4.0.0" date="2025-01-27">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/4.0.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>New model manager</li>
@@ -915,7 +915,7 @@
     </release>
     <release version="3.5.0" date="2025-01-07">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/3.5.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Added option for attaching screenshots</li>
@@ -941,7 +941,7 @@
     </release>
     <release version="3.2.0" date="2024-12-29">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/3.2.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Transitioned chat backend from JSON to SQLite3</li>
@@ -956,7 +956,7 @@
     </release>
     <release version="3.1.0" date="2024-12-25">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/3.1.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Added categories to models</li>
@@ -971,7 +971,7 @@
     </release>
     <release version="3.0.1" date="2024-12-24">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/3.0.1</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Correctly escape markup before rendering message</li>
@@ -981,7 +981,7 @@
     </release>
     <release version="3.0.0" date="2024-12-23">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/3.0.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>System messages can now be sent directly from Alpaca</li>
@@ -1009,7 +1009,7 @@
     </release>
     <release version="2.9.0" date="2024-11-26">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.9.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>New option --ask MESSAGE, to open a new 'Quick Ask' window</li>
@@ -1019,7 +1019,7 @@
     </release>
     <release version="2.8.0" date="2024-11-20">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.8.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Added launch paramenters --ask MESSAGE, --new-chat CHAT, --select-chat CHAT, --list-chats, --version</li>
@@ -1030,7 +1030,7 @@
     </release>
     <release version="2.7.0" date="2024-11-03">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.7.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>User messages are now compacted into bubbles</li>
@@ -1044,7 +1044,7 @@
     </release>
     <release version="2.6.5" date="2024-10-13">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.6.5</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Details page for models</li>
@@ -1056,7 +1056,7 @@
     </release>
     <release version="2.6.0" date="2024-10-11">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.6.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Better system for handling dialogs</li>
@@ -1072,7 +1072,7 @@
     </release>
     <release version="2.5.1" date="2024-10-09">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.5.1</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Added 'Cancel' and 'Save' buttons when editing a message</li>
@@ -1087,7 +1087,7 @@
     </release>
     <release version="2.5.0" date="2024-10-06">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.5.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Run bash and python scripts straight from chat</li>
@@ -1104,7 +1104,7 @@
     </release>
     <release version="2.0.6" date="2024-09-29">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.0.6</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed message notification sometimes crashing text rendering because of them running on different threads</li>
@@ -1113,7 +1113,7 @@
     </release>
     <release version="2.0.5" date="2024-09-25">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.0.5</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed message generation sometimes failing</li>
@@ -1122,7 +1122,7 @@
     </release>
     <release version="2.0.4" date="2024-09-22">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.0.4</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Sidebar resizes with the window</li>
@@ -1140,7 +1140,7 @@
     </release>
     <release version="2.0.3" date="2024-09-18">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.0.3</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed spinner not hiding if the back end fails</li>
@@ -1157,7 +1157,7 @@
     </release>
     <release version="2.0.2" date="2024-09-11">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.0.2</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed error on first run (welcome dialog)</li>
@@ -1167,7 +1167,7 @@
     </release>
     <release version="2.0.1" date="2024-09-11">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.0.1</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Fixed 'clear chat' option</li>
@@ -1178,7 +1178,7 @@
     </release>
     <release version="2.0.0" date="2024-09-01">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/2.0.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Model, message and chat systems have been rewritten</li>
@@ -1204,7 +1204,7 @@
     </release>
     <release version="1.1.1" date="2024-08-12">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/1.1.1</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>New duplicate chat option</li>
@@ -1226,7 +1226,7 @@
     </release>
     <release version="1.1.0" date="2024-08-10">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/1.1.0</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Model manager opens faster</li>
@@ -1257,7 +1257,7 @@
     </release>
     <release version="1.0.6" date="2024-08-04">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/1.0.6</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Changed shortcuts to standards</li>
@@ -1279,7 +1279,7 @@
     </release>
     <release version="1.0.5" date="2024-08-02">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/1.0.5</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Regenerate any response, even if they are incomplete</li>
@@ -1300,7 +1300,7 @@
     </release>
     <release version="1.0.4" date="2024-08-01">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/1.0.4</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Added table rendering (Thanks Nokse)</li>
@@ -1315,7 +1315,7 @@
     </release>
     <release version="1.0.3" date="2024-08-01">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/1.0.3</url>
-      <description>
+      <description translate="no">
         <p>New</p>
         <ul>
           <li>Bearer Token entry on connection error dialog</li>
@@ -1334,7 +1334,7 @@
     </release>
     <release version="1.0.2" date="2024-07-29">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/1.0.2</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Models with capital letters on their tag don't work</li>
@@ -1350,7 +1350,7 @@
     </release>
     <release version="1.0.1" date="2024-07-23">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/1.0.1</url>
-      <description>
+      <description translate="no">
         <p>Fixes</p>
         <ul>
           <li>Models with '-' in their names didn't work properly, this is now fixed</li>
@@ -1360,7 +1360,7 @@
     </release>
     <release version="1.0.0" date="2024-07-22">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/1.0.0</url>
-      <description>
+      <description translate="no">
         <p>Stable Release</p>
         <p>The new icon was made by Tobias Bernard over the Gnome Gitlab, thanks for the great icon!</p>
         <p>Features and fixes</p>
@@ -1419,14 +1419,14 @@
     </release>
     <release version="0.9.6.1" date="2024-06-22">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.9.6.1</url>
-      <description>
+      <description translate="no">
         <p>Fix</p>
         <p>Removed DOCX compatibility temporally due to error with python-lxml dependency </p>
       </description>
     </release>
     <release version="0.9.6" date="2024-06-21">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.9.6</url>
-      <description>
+      <description translate="no">
         <p>Big Update</p>
         <ul>
           <li>Added compatibility for PDF</li>
@@ -1437,14 +1437,14 @@
     </release>
     <release version="0.9.5" date="2024-06-04">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.9.5</url>
-      <description>
+      <description translate="no">
         <p>Quick Fix</p>
         <p>There were some errors when transitioning from the old version of chats to the new version. I apologize if this caused any corruption in your chat history. This should be the only time such a transition is needed.</p>
       </description>
     </release>
     <release version="0.9.4" date="2024-06-04">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.9.4</url>
-      <description>
+      <description translate="no">
         <p>Huge Update</p>
         <ul>
           <li>Added: Support for plain text files</li>
@@ -1456,7 +1456,7 @@
     </release>
     <release version="0.9.3" date="2024-06-01">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.9.3</url>
-      <description>
+      <description translate="no">
         <p>Big Update</p>
         <ul>
           <li>Added: Support for GGUF models (experimental)</li>
@@ -1468,7 +1468,7 @@
     </release>
     <release version="0.9.2" date="2024-05-30">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.9.2</url>
-      <description>
+      <description translate="no">
         <p>Fix</p>
         <ul>
           <li>Fixed: app didn't open if models tweaks wasn't present in the config files</li>
@@ -1477,7 +1477,7 @@
     </release>
     <release version="0.9.1" date="2024-05-29">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.9.1</url>
-      <description>
+      <description translate="no">
         <p>Big Update</p>
         <ul>
           <li>Changed multiple icons (paper airplane for the send button)</li>
@@ -1490,7 +1490,7 @@
     </release>
     <release version="0.9.0" date="2024-05-29">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.9.0</url>
-      <description>
+      <description translate="no">
         <p>Daily Update</p>
         <ul>
           <li>Added text ellipsis to chat name so it doesn't change the button width</li>
@@ -1502,7 +1502,7 @@
     </release>
     <release version="0.8.8" date="2024-05-28">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.8.8</url>
-      <description>
+      <description translate="no">
         <p>The fix</p>
         <ul>
           <li>Fixed: Ollama instance keeps running on the background even when it is disabled</li>
@@ -1512,7 +1512,7 @@
     </release>
     <release version="0.8.7" date="2024-05-27">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.8.7</url>
-      <description>
+      <description translate="no">
         <p>Quick tweaks</p>
         <ul>
           <li>Added progress bar to models that are being pulled</li>
@@ -1523,7 +1523,7 @@
     </release>
     <release version="0.8.6" date="2024-05-26">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.8.6</url>
-      <description>
+      <description translate="no">
         <p>Quick fixes</p>
         <ul>
           <li>Fixed: Scroll when message is received</li>
@@ -1534,7 +1534,7 @@
     </release>
     <release version="0.8.5" date="2024-05-26">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.8.5</url>
-      <description>
+      <description translate="no">
         <p>Nice Update</p>
         <ul>
           <li>UI tweaks (Thanks Nokse22)</li>
@@ -1545,7 +1545,7 @@
     </release>
     <release version="0.8.1" date="2024-05-24">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.8.1</url>
-      <description>
+      <description translate="no">
         <p>Quick fix</p>
         <ul>
           <li>Updated Spanish translation</li>
@@ -1555,7 +1555,7 @@
     </release>
     <release version="0.8.0" date="2024-05-24">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.8.0</url>
-      <description>
+      <description translate="no">
         <p>New Update</p>
         <ul>
           <li>Updated model list</li>
@@ -1570,7 +1570,7 @@
     </release>
     <release version="0.7.1" date="2024-05-23">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.7.1</url>
-      <description>
+      <description translate="no">
         <p>Bug Fixes</p>
         <ul>
           <li>Fixed: Minor spelling mistake</li>
@@ -1583,7 +1583,7 @@
     </release>
     <release version="0.7.0" date="2024-05-22">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.7.0</url>
-      <description>
+      <description translate="no">
         <p>Cool Update</p>
         <ul>
           <li>Better design for chat window</li>
@@ -1596,7 +1596,7 @@
     </release>
     <release version="0.6.0" date="2024-05-21">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.6.0</url>
-      <description>
+      <description translate="no">
         <p>Huge Update</p>
         <ul>
           <li>Added Ollama as part of Alpaca, Ollama will run in a sandbox</li>
@@ -1613,7 +1613,7 @@
     </release>
     <release version="0.5.5" date="2024-05-20">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.5.5</url>
-      <description>
+      <description translate="no">
         <p>Yet Another Daily Update</p>
         <ul>
           <li>Added better UI for 'Manage Models' dialog</li>
@@ -1630,7 +1630,7 @@
     </release>
     <release version="0.5.2" date="2024-05-19">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.5.2</url>
-      <description>
+      <description translate="no">
         <p>Quick Fix</p>
         <ul>
           <li>The last update had some mistakes in the description of the update</li>
@@ -1642,7 +1642,7 @@
     </release>
     <release version="0.5.1" date="2024-05-19">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.5.1</url>
-      <description>
+      <description translate="no">
         <p>Another Daily Update</p>
         <ul>
           <li>Added full Spanish translation</li>
@@ -1661,7 +1661,7 @@
     </release>
     <release version="0.5.0" date="2024-05-19">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.5.0</url>
-      <description>
+      <description translate="no">
         <p>Really Big Update</p>
         <ul>
           <li>Added multiple chats support!</li>
@@ -1682,7 +1682,7 @@
     </release>
     <release version="0.4.0" date="2024-05-17">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.4.0</url>
-      <description>
+      <description translate="no">
         <p>Big Update</p>
         <ul>
           <li>Added code highlighting</li>
@@ -1698,7 +1698,7 @@
     </release>
     <release version="0.3.0" date="2024-05-16">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.3.0</url>
-      <description>
+      <description translate="no">
         <p>Fixes and features</p>
         <ul>
           <li>Russian translation (thanks github/alexkdeveloper)</li>
@@ -1714,7 +1714,7 @@
     </release>
     <release version="0.2.2" date="2024-05-14">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.2.2</url>
-      <description>
+      <description translate="no">
         <p>0.2.2 Bug fixes</p>
         <ul>
           <li>Toast messages appearing behind dialogs</li>
@@ -1728,7 +1728,7 @@
     </release>
     <release version="0.2.1" date="2024-05-14">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.2.1</url>
-      <description>
+      <description translate="no">
         <p>0.2.1 Data saving fix</p>
         <p>The app didn't save the config files and chat history to the right directory, this is now fixed</p>
         <p>
@@ -1738,7 +1738,7 @@
     </release>
     <release version="0.2.0" date="2024-05-14">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.2.0</url>
-      <description>
+      <description translate="no">
         <p>0.2.0</p>
         <p>Big Update</p>
         <p>New Features</p>
@@ -1756,14 +1756,14 @@
     </release>
     <release version="0.1.2" date="2024-05-13">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.1.2</url>
-      <description>
+      <description translate="no">
         <p>0.1.2 Quick fixes</p>
         <p>This release fixes some metadata needed to have a proper Flatpak application</p>
       </description>
     </release>
     <release version="0.1.1" date="2024-05-12">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/0.1.1</url>
-      <description>
+      <description translate="no">
         <p>0.1.1 Stable Release</p>
         <p>This is the first public version of Alpaca</p>
         <p>Features</p>
