@@ -253,3 +253,12 @@ flowboxchild {
   color: color-mix(in srgb, var(--accent-slate) 50%, currentColor);
 }
 
+@media (prefers-color-scheme: dark) {
+  .latex_renderer {
+	  filter: invert(1);
+  }
+
+  .live_chat_background {
+	  filter: blur(100px) brightness(50%);
+  }
+}
