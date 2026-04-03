@@ -89,6 +89,19 @@
   <url type="contribute">https://github.com/Jeffser/Alpaca/blob/main/CONTRIBUTING.md</url>
   <url type="vcs-browser">https://github.com/Jeffser/Alpaca</url>
   <releases>
+    <release version="9.2.4" date="2026-04-03">
+      <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.2.4</url>
+      <description translate="no">
+        <p>New</p>
+        <ul>
+          <li>Updated list of models</li>
+        </ul>
+        <p>Fixes</p>
+        <ul>
+          <li>Fixed expose Ollama to network option</li>
+        </ul>
+      </description>
+    </release>
     <release version="9.2.3" date="2026-04-01">
       <url type="details">https://github.com/Jeffser/Alpaca/releases/tag/9.2.3</url>
       <description translate="no">
