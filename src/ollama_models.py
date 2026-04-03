@@ -7187,4 +7187,42 @@ OLLAMA_MODELS = {
                 "en"
         ],
     },
+    "gemma4": {
+        "tags": [
+                [
+                        "latest",
+                        "9.6 GB"
+                ],
+                [
+                        "e2b",
+                        "7.2 GB"
+                ],
+                [
+                        "e4b",
+                        "9.6 GB"
+                ],
+                [
+                        "26b",
+                        "18 GB"
+                ],
+                [
+                        "31b",
+                        "20 GB"
+                ]
+        ],
+        "description": _("Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding."),
+        "url": "https://ollama.com/library/gemma4",
+        "categories": [
+                "vision",
+                "tools",
+                "medium",
+                "big",
+                "huge",
+                "code"
+        ],
+        "author": "Google DeepMind",
+        "languages": [
+                "en"
+        ],
+    },
 }
