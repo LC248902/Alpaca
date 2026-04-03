@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 20:53-0600\n"
+"POT-Creation-Date: 2026-04-03 08:42-0600\n"
 "PO-Revision-Date: 2024-05-19 19:44-0600\n"
 "Last-Translator: Jeffry Samuel Eduarte Rojas <jeffrysamuer@gmail.com>\n"
 "Language-Team: Spanish\n"
@@ -1532,7 +1532,7 @@ msgid "Change"
 msgstr "Cambiar"
 
 #: src/ui/widgets/models/text_dialog.blp:147
-#: src/widgets/instances/__init__.py:364 src/widgets/models/basic.py:344
+#: src/widgets/instances/__init__.py:367 src/widgets/models/basic.py:344
 msgid "Remove"
 msgstr "Remover"
 
@@ -3511,9 +3511,9 @@ msgid ""
 "24 billion parameters while keeping inference efficient."
 msgstr ""
 "LFM2 es una familia de modelos híbridos diseñados para su implementación en "
-"dispositivos. LFM2-24B-A2B es el modelo más grande de la familia, que "
-"amplía la arquitectura a 24 mil millones de parámetros manteniendo la "
-"eficiencia de la inferencia."
+"dispositivos. LFM2-24B-A2B es el modelo más grande de la familia, que amplía "
+"la arquitectura a 24 mil millones de parámetros manteniendo la eficiencia de "
+"la inferencia."
 
 #: src/ollama_models.py:7124
 msgid ""
@@ -3540,6 +3540,16 @@ msgid ""
 msgstr ""
 "El modelo de la serie M2 de MiniMax para codificación, flujos de trabajo "
 "automatizados y productividad profesional."
+
+#: src/ollama_models.py:7213
+msgid ""
+"Gemma 4 models are designed to deliver frontier-level performance at each "
+"size. They are well-suited for reasoning, agentic workflows, coding, and "
+"multimodal understanding."
+msgstr ""
+"Los modelos Gemma 4 están diseñados para ofrecer un rendimiento de "
+"vanguardia en cada tamaño. Son idóneos para el razonamiento, los flujos de "
+"trabajo basados ​​en agentes, la codificación y la comprensión multimodal."
 
 #: src/quick_ask.py:65 src/widgets/activities/live_chat.py:155
 msgid "Please select an instance in Alpaca before chatting"
@@ -3871,7 +3881,7 @@ msgstr "Error al Exportar la Tarjeta de Personaje"
 msgid "Remove Tag"
 msgstr "Remover Etiqueta"
 
-#: src/widgets/instances/__init__.py:62 src/widgets/instances/__init__.py:372
+#: src/widgets/instances/__init__.py:62 src/widgets/instances/__init__.py:375
 msgid "Edit Instance"
 msgstr "Editar Instancia"
 
@@ -3879,39 +3889,39 @@ msgstr "Editar Instancia"
 msgid "Create Instance"
 msgstr "Crear Instancia"
 
-#: src/widgets/instances/__init__.py:88
+#: src/widgets/instances/__init__.py:91
 msgid "API Key"
 msgstr "Clave API"
 
-#: src/widgets/instances/__init__.py:88
+#: src/widgets/instances/__init__.py:91
 msgid "API Key (Optional)"
 msgstr "Clave API (Opcional)"
 
-#: src/widgets/instances/__init__.py:89
+#: src/widgets/instances/__init__.py:92
 msgid "API Key (Unchanged)"
 msgstr "Clave API (Sin Cambios)"
 
-#: src/widgets/instances/__init__.py:138
+#: src/widgets/instances/__init__.py:141
 msgid "Use Current Model"
 msgstr "Utilice el Modelo Actual"
 
-#: src/widgets/instances/__init__.py:311
+#: src/widgets/instances/__init__.py:314
 msgid "Fallback Instance"
 msgstr "Instancia de Respaldo"
 
-#: src/widgets/instances/__init__.py:344
+#: src/widgets/instances/__init__.py:347
 msgid "Open Ollama Manager"
 msgstr "Abrir Gestor de Ollama"
 
-#: src/widgets/instances/__init__.py:354
+#: src/widgets/instances/__init__.py:357
 msgid "Remove Instance"
 msgstr "Remover Instancia"
 
-#: src/widgets/instances/__init__.py:361
+#: src/widgets/instances/__init__.py:364
 msgid "Remove Instance?"
 msgstr "¿Eliminar instancia?"
 
-#: src/widgets/instances/__init__.py:362
+#: src/widgets/instances/__init__.py:365
 msgid "Are you sure you want to remove this instance?"
 msgstr "¿Estás seguro de que quieres eliminar esta instancia?"
 
@@ -3932,12 +3942,12 @@ msgstr "Argumento"
 #: src/widgets/instances/ollama_instances.py:729
 #: src/widgets/instances/openai_instances.py:239
 #: src/widgets/instances/openai_instances.py:315
-#: src/widgets/instances/openai_instances.py:371
-#: src/widgets/instances/openai_instances.py:416
-#: src/widgets/instances/openai_instances.py:477
-#: src/widgets/instances/openai_instances.py:516
-#: src/widgets/instances/openai_instances.py:549
-#: src/widgets/instances/openai_instances.py:628
+#: src/widgets/instances/openai_instances.py:372
+#: src/widgets/instances/openai_instances.py:414
+#: src/widgets/instances/openai_instances.py:475
+#: src/widgets/instances/openai_instances.py:514
+#: src/widgets/instances/openai_instances.py:547
+#: src/widgets/instances/openai_instances.py:626
 msgid "Instance Error"
 msgstr "Error de Instancia"
 
@@ -3949,8 +3959,8 @@ msgstr "Error en la generación del mensaje"
 #: src/widgets/instances/ollama_instances.py:350
 #: src/widgets/instances/ollama_instances.py:730
 #: src/widgets/instances/openai_instances.py:316
-#: src/widgets/instances/openai_instances.py:372
-#: src/widgets/instances/openai_instances.py:417
+#: src/widgets/instances/openai_instances.py:373
+#: src/widgets/instances/openai_instances.py:415
 msgid "Could not retrieve added models"
 msgstr "No se pudieron recuperar los modelos agregados"
 
@@ -4065,69 +4075,69 @@ msgstr "Error de Herramienta"
 msgid "An error occurred while running tool"
 msgstr "Se produjo un error al ejecutar la herramienta"
 
-#: src/widgets/instances/openai_instances.py:478
-#: src/widgets/instances/openai_instances.py:517
-#: src/widgets/instances/openai_instances.py:550
+#: src/widgets/instances/openai_instances.py:476
+#: src/widgets/instances/openai_instances.py:515
+#: src/widgets/instances/openai_instances.py:548
 msgid "Could not retrieve models"
 msgstr "No se pudieron recuperar los modelos"
 
-#: src/widgets/instances/openai_instances.py:490
+#: src/widgets/instances/openai_instances.py:488
 msgid "Alibaba Cloud Qwen large language models via DashScope"
 msgstr "Modelos de lenguaje grande de Alibaba Cloud Qwen a través de DashScope"
 
-#: src/widgets/instances/openai_instances.py:496
+#: src/widgets/instances/openai_instances.py:494
 msgid "Fireworks AI inference platform"
 msgstr "Plataforma de inferencia de IA de Fireworks"
 
-#: src/widgets/instances/openai_instances.py:529
+#: src/widgets/instances/openai_instances.py:527
 msgid "Lambda Labs cloud inference API"
 msgstr "API de inferencia en la nube de Lambda Labs"
 
-#: src/widgets/instances/openai_instances.py:562
+#: src/widgets/instances/openai_instances.py:560
 msgid "Cerebras AI cloud inference API"
 msgstr "API de inferencia en la nube de Cerebras AI"
 
-#: src/widgets/instances/openai_instances.py:568
+#: src/widgets/instances/openai_instances.py:566
 msgid "Kluster AI cloud inference API"
 msgstr "API de inferencia en la nube de Kluster AI"
 
-#: src/widgets/instances/openai_instances.py:574
+#: src/widgets/instances/openai_instances.py:572
 msgid "Kimi large language models by Moonshot AI"
 msgstr "Modelos de lenguaje grandes de Kimi de Moonshot AI"
 
-#: src/widgets/instances/openai_instances.py:581
+#: src/widgets/instances/openai_instances.py:579
 msgid "Mistral AI large language models"
 msgstr "Modelos de lenguaje grandes de Mistral AI"
 
-#: src/widgets/instances/openai_instances.py:588
+#: src/widgets/instances/openai_instances.py:586
 msgid "Meta AI Llama API"
 msgstr "API de Meta AI Llama"
 
-#: src/widgets/instances/openai_instances.py:594
+#: src/widgets/instances/openai_instances.py:592
 msgid "Novita AI cloud inference API"
 msgstr "API de inferencia en la nube de Novita AI"
 
-#: src/widgets/instances/openai_instances.py:601
+#: src/widgets/instances/openai_instances.py:599
 msgid "DeepInfra cloud inference API"
 msgstr "API de inferencia en la nube de DeepInfra"
 
-#: src/widgets/instances/openai_instances.py:607
+#: src/widgets/instances/openai_instances.py:605
 msgid "CompactifAI inference platform"
 msgstr "Plataforma de inferencia CompactifAI"
 
-#: src/widgets/instances/openai_instances.py:629
+#: src/widgets/instances/openai_instances.py:627
 msgid "Could not retrieve CompactifAI models"
 msgstr "No se pudieron recuperar los modelos CompactifAI"
 
-#: src/widgets/instances/openai_instances.py:641
+#: src/widgets/instances/openai_instances.py:639
 msgid "Grok instance from X.ai"
 msgstr "Instancia de Grok de X.ai"
 
-#: src/widgets/instances/openai_instances.py:645
+#: src/widgets/instances/openai_instances.py:657
 msgid "OpenAI Compatible Instance"
 msgstr "Instancia Compatible con OpenAI"
 
-#: src/widgets/instances/openai_instances.py:647
+#: src/widgets/instances/openai_instances.py:659
 msgid "AI instance compatible with OpenAI library"
 msgstr "Instancia de IA compatible con la biblioteca OpenAI"
 

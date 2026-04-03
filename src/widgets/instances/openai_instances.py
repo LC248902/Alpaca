@@ -642,13 +642,9 @@ class SarvamAI(BaseInstance):
     instance_type = 'sarvam'
     instance_type_display = 'Sarvam AI'
     instance_url = 'https://api.sarvam.ai/'
-    description = _('Sarvam AI instance')
+    description = 'Sarvam AI'
 
     def start(self):
-        """
-        Overrides start to pass the custom 'api-subscription-key' header 
-        required by Sarvam API for general API interactions.
-        """
         if not self.client:
             self.client = openai.OpenAI(
                 api_key=self.properties.get('api'),
