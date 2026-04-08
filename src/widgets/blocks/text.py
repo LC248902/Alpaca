@@ -130,7 +130,7 @@ class Text(Gtk.Label):
             focusable=True,
             selectable=True,
             xalign=0,
-            css_classes=['lh']
+            css_classes=['body']
         )
         self.raw_text=""
         if content:
