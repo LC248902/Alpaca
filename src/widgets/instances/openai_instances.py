@@ -652,6 +652,12 @@ class SarvamAI(BaseInstance):
                 default_headers={"api-subscription-key": self.properties.get('api')}
             )
 
+class AtlasCloud(BaseInstance):
+    instance_type = 'atlascloud'
+    instance_type_display = 'AtlasCloud'
+    instance_url = 'https://api.atlascloud.ai/v1'
+    description = _('AtlasCloud OpenAI-compatible API')
+
 class Cloudflare(BaseInstance):
     instance_type = 'cloudflare'
     instance_type_display = 'Cloudflare Workers AI'
@@ -735,7 +741,7 @@ class XiaomiMiMo(BaseInstance):
     instance_url = 'https://api.xiaomimimo.com/v1'
     description = _('Xiaomi MiMo large language models')
     limitations = ('no-seed',)     # limitations = ('text-only',) as of now image support is not availble for Openai api
-
+    
 class GenericOpenAI(BaseInstance):
     instance_type = 'openai:generic'
     instance_type_display = _('OpenAI Compatible Instance')
